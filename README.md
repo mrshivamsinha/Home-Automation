@@ -7,7 +7,7 @@ In order to achieve this, a Bluetooth module is interfaced to the Arduino board 
 
 Demonstration of the project is in the below youtube video :  
 
-<a href = "https://www.youtube.com/watch?v=1ieyT6df8ec" ><img src="https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/youtube_image.png" width="50%" /></a>  
+<a href = "https://www.youtube.com/watch?v=1ieyT6df8ec" ><img src="https://github.com/mrshivamsinha/Home-Automation/blob/main/Images/youtube_image.png" width="50%" /></a>  
 
 Contents
 --------
@@ -25,7 +25,7 @@ Similarly, when the user presses on the ‘On’ button displayed on the app for
 This project of home automation using Bluetooth and Arduino can be used for controlling any AC or DC devices.  
 Given below is the flow diagram that explains the flow of the project.
 
-<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/diagram.jpg" width = "75%"/>  
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/main/Images/diagram.jpg" width = "75%"/>  
 
 
 <a name="components">Components</a>
@@ -54,7 +54,7 @@ The list of components mentioned here are specifically for controlling 4 differe
 ---------
 ### Circuit Diagram  
 
-<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/ciruit_diagram.png" width = "75%"/>  
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/main/Images/ciruit_diagram.png" width = "75%"/>  
 
 ### Arduino Code 
 
