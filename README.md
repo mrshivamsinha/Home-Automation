@@ -1,4 +1,5 @@
 Home-Automation
+<<<<<<< HEAD
 =====
 The main objective of this project is to develop a home automation system using an Arduino board with Bluetooth being remotely controlled by any Android OS smartphone. As technology is advancing so houses are also getting smarter. Modern houses are gradually shifting from conventional switches to centralized control system, involving remote controlled switches. Presently, conventional wall switches located in different parts of the house makes it difficult for the user to go near them to operate. Even more it becomes more difficult for the elderly or physically handicapped people to do so. Remote controlled home automation system provides a most modern solution with smartphones. 
 
@@ -58,6 +59,52 @@ The list of components mentioned here are specifically for controlling 4 differe
 ### Arduino Code 
 
 ```
+=======
+The main objective of this project is to develop a home automation system using an Arduino board with Bluetooth being remotely controlled by any Android OS smartphone. As technology is advancing so houses are also getting smarter. Modern houses are gradually shifting from conventional switches to centralized control system, involving remote controlled switches. Presently, conventional wall switches located in different parts of the house makes it difficult for the user to go near them to operate. Even more it becomes more difficult for the elderly or physically handicapped people to do so. Remote controlled home automation system provides a most modern solution with smartphones.
+
+In order to achieve this, a Bluetooth module is interfaced to the Arduino board at the receiver end while on the transmitter end, a GUI application on the cell phone sends ON/OFF commands to the receiver where loads are connected. By touching the specified location on the GUI, the loads can be turned ON/OFF remotely through this technology.
+
+Demonstration of the project is in the below youtube video :
+
+
+
+Contents
+This Readme is divided into several parts
+
+Description
+Components
+Implementation
+Description
+This project is one of the important Arduino Projects. Arduino based home automation using Bluetooth project helps the user to control any electronic device using Device Control app on their Android Smartphone. The android app sends commands to the controller – Arduino, through wireless communication, namely, Bluetooth. The Arduino is connected to the main PCB which has five relays as shown in the block diagram. These relays can be connected to different electronic devices like lights, television, fan, etc.
+When the user presses on the ‘On’ button displayed on the app for the device 1, the Buzzer is switched on. This Buzzer can be switched off, by pressing the same button again.
+Similarly, when the user presses on the ‘On’ button displayed on the app for the device 2, the fan is switched on. The fan can be switched off, by pressing the same button again.
+This project of home automation using Bluetooth and Arduino can be used for controlling any AC or DC devices.
+Given below is the flow diagram that explains the flow of the project.
+
+
+
+Components
+This section enlists various hardware and software componets used in the project.
+
+Hardware
+The list of components mentioned here are specifically for controlling 4 different loads.
+
+Arduino UNO
+HC – 05 Bluetooth Module
+5 V Relay X 4
+Prototyping board (Bread board)
+Connecting wires
+Smartphone or tablet (Bluetooth enabled)
+5V Power Source
+Software
+Arduino 1.8.5 compiler
+Android application
+Implementation
+Circuit Diagram
+
+
+Arduino Code
+>>>>>>> 0fee5ae33657557e191fc011040c553a8fe597a6
 //using ports 10, 11, 12, 13
 int relay1=10;
 int relay2=11;
@@ -120,6 +167,7 @@ void loop() {
     digitalWrite(relay4,LOW);
   }
 }
+<<<<<<< HEAD
 ```
 
 
@@ -147,6 +195,22 @@ License
 --------
 
 ```
+=======
+Android App
+
+
+Future Develpment
+Arduino based device control using Bluetooth on Smartphone project can be enhanced to control the speed of the fan or volume of the buzzer etc.
+Home automation and Device controlling can be done using Internet of Things – IOT technology.
+We can replace Bluetooth by GSM modem so that we can achieve device controlling by sending SMS using GSM modem.
+Any suggestion are welcomed and feel free to open an issue.
+
+Donate
+If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of ☕
+
+PayPal
+License
+>>>>>>> 0fee5ae33657557e191fc011040c553a8fe597a6
 MIT License
 
 Copyright (c) 2018 Ayush Agarwal
@@ -168,4 +232,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 0fee5ae33657557e191fc011040c553a8fe597a6
