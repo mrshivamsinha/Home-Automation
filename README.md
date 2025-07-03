@@ -173,7 +173,7 @@ void loop() {
 
 ### Android App  
 
-<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/app_screenshot.png" width = "300"/>
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/main/Images/app_screenshot.png" width = "300"/>
 
 
 Future Develpment
