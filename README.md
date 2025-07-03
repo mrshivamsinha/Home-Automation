@@ -7,7 +7,7 @@ In order to achieve this, a Bluetooth module is interfaced to the Arduino board 
 
 Demonstration of the project is in the below youtube video :  
 
-<a href = "https://www.youtube.com/watch?v=1ieyT6df8ec" ><img src="https://github.com/aagarwal1012/Home-Automation/blob/master/Images/youtube_image.png" width="50%" /></a>  
+<a href = "https://www.youtube.com/watch?v=1ieyT6df8ec" ><img src="https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/youtube_image.png" width="50%" /></a>  
 
 Contents
 --------
@@ -25,7 +25,7 @@ Similarly, when the user presses on the ‘On’ button displayed on the app for
 This project of home automation using Bluetooth and Arduino can be used for controlling any AC or DC devices.  
 Given below is the flow diagram that explains the flow of the project.
 
-<img src = "https://github.com/aagarwal1012/Home-Automation/blob/master/Images/diagram.jpg" width = "75%"/>  
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/diagram.jpg" width = "75%"/>  
 
 
 <a name="components">Components</a>
@@ -54,7 +54,7 @@ The list of components mentioned here are specifically for controlling 4 differe
 ---------
 ### Circuit Diagram  
 
-<img src = "https://github.com/aagarwal1012/Home-Automation/blob/master/Images/ciruit_diagram.png" width = "75%"/>  
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/ciruit_diagram.png" width = "75%"/>  
 
 ### Arduino Code 
 
@@ -173,7 +173,7 @@ void loop() {
 
 ### Android App  
 
-<img src = "https://github.com/aagarwal1012/Home-Automation/blob/master/Images/app_screenshot.png" width = "300"/>
+<img src = "https://github.com/mrshivamsinha/Home-Automation/blob/master/Images/app_screenshot.png" width = "300"/>
 
 
 Future Develpment
@@ -184,12 +184,9 @@ Future Develpment
 - We can replace Bluetooth by GSM modem so that we can achieve device controlling by sending SMS using GSM modem.  
 
 
-Any suggestion are welcomed and feel free to open an <a href = "https://github.com/aagarwal1012/Home-Automation/issues">issue</a>.
+Any suggestion are welcomed and feel free to open an <a href = "https://github.com/mrshivamsinha/Home-Automation/issues">issue</a>.
 
-# Donate
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> - [PayPal](https://www.paypal.me/aagarwal1012/)
+
 
 License
 --------
@@ -213,7 +210,7 @@ License
 >>>>>>> 0fee5ae33657557e191fc011040c553a8fe597a6
 MIT License
 
-Copyright (c) 2018 Ayush Agarwal
+Copyright (c) 2024 Shivam sinha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
